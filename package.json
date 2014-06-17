@@ -1,6 +1,6 @@
 {
   "name": "gt-gulp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "coffee-script": "^1.7.1",
     "gulp-angular-templatecache": "^1.2.1",
@@ -23,5 +23,23 @@
     "gulp-symlink": "^1.1.0",
     "gulp-uglify": "^0.3.0",
     "karma": "^0.12.16"
-  }
+  },
+  "description": "gt-gulp",
+  "main": "index.coffee",
+  "devDependencies": {
+    "coffee-script": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gutenberg-Technology/gt-gulp"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Gutenberg-Technology/gt-gulp/issues"
+  },
+  "homepage": "https://github.com/Gutenberg-Technology/gt-gulp"
 }
