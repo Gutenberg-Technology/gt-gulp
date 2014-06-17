@@ -1,6 +1,6 @@
 {
   "name": "gt-gulp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dependencies": {
     "coffee-script": "1.7.1",
     "gulp-angular-templatecache": "1.1.1",
@@ -35,8 +35,8 @@
     "type": "git",
     "url": "git://github.com/Gutenberg-Technology/gt-gulp"
   },
-  "author": "",
-  "license": "",
+  "author": "Gutenberg Technology",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Gutenberg-Technology/gt-gulp/issues"
   },
