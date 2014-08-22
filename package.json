@@ -1,6 +1,6 @@
 {
   "name": "gt-gulp",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "dependencies": {
     "coffee-script": "1.7.1",
     "gulp-angular-templatecache": "1.1.1",

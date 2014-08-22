@@ -5,7 +5,8 @@ plumber = require('gulp-plumber')
 rename = require('gulp-rename')
 
 module.exports =
-    dev: ({gulpsrc, gulpdest, sassDir, sassImageDir, fontDir, version = '0.0.1'}) ->
+    dev: ({gulpsrc, gulpdest, sassDir, sassImageDir, fontDir, version}) ->
+        version ?= '0.0.1'
         gulpsrc
             .pipe(plumber())
             .pipe(compass(
@@ -18,7 +19,8 @@ module.exports =
             .pipe(rename("index-#{ version }.css"))
             .pipe(gulpdest)
 
-    prod:  ({gulpsrc, gulpdest, sassDir, sassImageDir, fontDir, version = '0.0.1'}) ->
+    prod:  ({gulpsrc, gulpdest, sassDir, sassImageDir, fontDir, version}) ->
+        version ?= '0.0.1'
         gulpsrc
             .pipe(compass(
                 css: 'tmp'
