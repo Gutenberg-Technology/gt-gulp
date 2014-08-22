@@ -16,7 +16,7 @@ module.exports =
                 font: fontDir
             ))
             .pipe(prefix(["last 2 version", "> 5%", "ie 10", "ie 9"]))
-            .pipe(rename("index-#{ version }.css"))
+            .pipe(rename(suffix: "-#{ version }"))
             .pipe(gulpdest)
 
     prod:  ({gulpsrc, gulpdest, sassDir, sassImageDir, fontDir, version}) ->
@@ -31,6 +31,6 @@ module.exports =
             ))
             .pipe(prefix(["last 2 version", "> 5%", "ie 10", "ie 9"]))
             .pipe(minifyCss())
-            .pipe(rename("index-#{ version }.css"))
+            .pipe(rename(suffix: "-#{ version }"))
             .pipe(gulpdest)
 
