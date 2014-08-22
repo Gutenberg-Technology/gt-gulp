@@ -1,6 +1,6 @@
 coffee = require('gulp-coffee')
 uglify = require('gulp-uglify')
-ngmin = require('gulp-ngmin')
+ngAnnotate = require('gulp-ng-annotate')
 concat = require('gulp-concat')
 plumber = require('gulp-plumber')
 
@@ -20,6 +20,6 @@ module.exports =
     concatAndUglify: ({gulpsrc, gulpdest, concatfile}) ->
         gulpsrc
             .pipe(concat(concatfile))
-            .pipe(ngmin())
+            .pipe(ngAnnotate())
             .pipe(uglify())
             .pipe(gulpdest)

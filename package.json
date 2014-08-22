@@ -1,11 +1,10 @@
 {
   "name": "gt-gulp",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "dependencies": {
     "coffee-script": "1.7.1",
     "gulp-angular-templatecache": "1.1.1",
     "gulp-autoprefixer": "0.0.7",
-    "gulp-rimraf": "0.1.0",
     "gulp-clean-css": "1.0.2",
     "gulp-coffee": "1.4.3",
     "gulp-compass": "1.1.9",
@@ -16,9 +15,10 @@
     "gulp-iconfont-css": "0.0.9",
     "gulp-inject": "0.4.1",
     "gulp-karma": "0.0.4",
-    "gulp-ngmin": "0.1.2",
+    "gulp-ng-annotate": "0.3.0",
     "gulp-plumber": "0.6.1",
     "gulp-rename": "1.2.0",
+    "gulp-rimraf": "0.1.0",
     "gulp-symlink": "0.4.1",
     "gulp-uglify": "0.2.1"
   },
