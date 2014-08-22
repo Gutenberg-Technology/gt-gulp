@@ -1,5 +1,5 @@
 compass = require('gulp-compass')
-minifyCss = require('gulp-clean-css')
+minifyCss = require('gulp-minify-css')
 prefix = require('gulp-autoprefixer')
 plumber = require('gulp-plumber')
 rename = require('gulp-rename')
