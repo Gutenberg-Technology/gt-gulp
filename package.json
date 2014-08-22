@@ -5,7 +5,7 @@
     "coffee-script": "1.7.1",
     "gulp-angular-templatecache": "1.1.1",
     "gulp-autoprefixer": "0.0.7",
-    "gulp-clean": "0.2.4",
+    "gulp-rimraf": "0.1.0",
     "gulp-clean-css": "1.0.2",
     "gulp-coffee": "1.4.3",
     "gulp-compass": "1.1.9",
@@ -19,7 +19,6 @@
     "gulp-ngmin": "0.1.2",
     "gulp-plumber": "0.6.1",
     "gulp-rename": "1.2.0",
-    "gulp-svgicons2svgfont": "0.0.10",
     "gulp-symlink": "0.4.1",
     "gulp-uglify": "0.2.1"
   },

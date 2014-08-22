@@ -1,6 +1,6 @@
-clean = require('gulp-clean')
+rimraf = require('gulp-rimraf')
 
 module.exports = ({gulpsrc}) ->
     gulpsrc
-        .pipe(clean())
+        .pipe(rimraf())
 
