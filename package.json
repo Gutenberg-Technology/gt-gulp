@@ -1,9 +1,7 @@
 {
   "name": "gt-gulp",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "dependencies": {
-    "coffee-script": "1.7.1",
-    "gulp": "latest",
     "gulp-angular-templatecache": "1.1.1",
     "gulp-autoprefixer": "0.0.7",
     "gulp-coffee": "1.4.3",
@@ -25,9 +23,6 @@
   },
   "description": "gt-gulp",
   "main": "index.coffee",
-  "devDependencies": {
-    "coffee-script": "1.7.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
