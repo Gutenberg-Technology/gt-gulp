@@ -3,18 +3,21 @@ uglify = require('gulp-uglify')
 ngAnnotate = require('gulp-ng-annotate')
 concat = require('gulp-concat')
 plumber = require('gulp-plumber')
+sourcemaps = require('gulp-sourcemaps')
 
 module.exports =
 
     dev: ({gulpsrc, gulpdest}) ->
         gulpsrc
             .pipe(plumber())
-            .pipe(coffee(sourceMap: true))
+            .pipe(sourcemaps.init())
+            .pipe(coffee(bare: true))
+            .pipe(sourcemaps.write())
             .pipe(gulpdest)
 
     prod: ({gulpsrc, gulpdest}) ->
         gulpsrc
-            .pipe(coffee(sourceMap: false))
+            .pipe(coffee(bare: true))
             .pipe(gulpdest)
 
     concatAndUglify: ({gulpsrc, gulpdest, concatfile}) ->
