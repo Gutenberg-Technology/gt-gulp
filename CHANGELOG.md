@@ -1,5 +1,10 @@
 # gt-gulp changelog
 
+## 0.0.16
+
+- use gulp-sourcemaps for coffee and use bare option
+- update gulp-coffee
+
 ## 0.0.15
 
 - update dependencies
