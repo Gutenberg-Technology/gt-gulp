@@ -1,5 +1,9 @@
 # gt-gulp changelog
 
+## 0.0.17
+
+- use latest libs
+
 ## 0.0.16
 
 - use gulp-sourcemaps for coffee and use bare option

@@ -1,6 +1,6 @@
 {
   "name": "gt-gulp",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "dependencies": {
     "gulp-angular-templatecache": "latest",
     "gulp-autoprefixer": "latest",
