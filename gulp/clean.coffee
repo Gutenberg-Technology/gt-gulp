@@ -1,6 +1,5 @@
-rimraf = require('gulp-rimraf')
+del = require 'del'
 
-module.exports = ({gulpsrc}) ->
-    gulpsrc
-        .pipe(rimraf())
+module.exports = (files, callback) ->
+    del files, callback
 

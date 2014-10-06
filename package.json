@@ -1,7 +1,8 @@
 {
   "name": "gt-gulp",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "dependencies": {
+    "del": "latest",
     "gulp-angular-templatecache": "latest",
     "gulp-autoprefixer": "latest",
     "gulp-coffee": "latest",
@@ -17,7 +18,6 @@
     "gulp-ng-annotate": "latest",
     "gulp-plumber": "latest",
     "gulp-rename": "latest",
-    "gulp-rimraf": "latest",
     "gulp-sourcemaps": "latest",
     "gulp-symlink": "latest",
     "gulp-uglify": "latest"

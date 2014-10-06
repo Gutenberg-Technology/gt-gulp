@@ -1,5 +1,9 @@
 # gt-gulp changelog
 
+## 0.0.18
+
+- use del instead of rimraf (deprecated)
+
 ## 0.0.17
 
 - use latest libs
