@@ -1,6 +1,6 @@
 {
   "name": "gt-gulp",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "dependencies": {
     "del": "latest",
     "gulp-angular-templatecache": "latest",

@@ -1,5 +1,9 @@
 # gt-gulp changelog
 
+## 0.0.19
+
+- fix gulp-compass & gulp-symlink versions
+
 ## 0.0.18
 
 - use del instead of rimraf (deprecated)
