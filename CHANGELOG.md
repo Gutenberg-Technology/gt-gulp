@@ -1,5 +1,9 @@
 # gt-gulp changelog
 
+## 0.0.21
+
+- fix gulp-iconfont version to 2.0.0
+
 ## 0.0.20
 
 - oops

@@ -1,6 +1,6 @@
 {
   "name": "gt-gulp",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "dependencies": {
     "del": "latest",
     "gulp-angular-templatecache": "latest",
@@ -13,7 +13,6 @@
     "gulp-iconfont": "2.0.0",
     "gulp-iconfont-css": "latest",
     "gulp-inject": "latest",
-    "gulp-karma": "latest",
     "gulp-minify-css": "latest",
     "gulp-ng-annotate": "latest",
     "gulp-plumber": "latest",
