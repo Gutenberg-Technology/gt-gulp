@@ -10,7 +10,7 @@
     "gulp-concat": "latest",
     "gulp-cssfont64": "latest",
     "gulp-htmlmin": "latest",
-    "gulp-iconfont": "latest",
+    "gulp-iconfont": "2.0.0",
     "gulp-iconfont-css": "latest",
     "gulp-inject": "latest",
     "gulp-karma": "latest",
